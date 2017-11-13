@@ -1,0 +1,210 @@
+body {
+font-family: Arial,Helvetica ,sans-serif;
+  font-size:  15px;
+  line-height: 1,5;
+  padding: 0;
+}
+
+
+/* Global*/
+.container{
+width:80%;
+margin: auto;
+overflow: hidden;
+
+}
+ul{
+margin-left: 0;
+padding:  0;
+
+}
+
+.button_1{
+  height:20px;
+  background:#00ffff;
+  border:none;
+  padding-left:10px;
+  padding-right:10px;
+  color: #c8a46d;
+}
+.dark{
+padding: 15px;
+background:hotpink;
+color: black;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+/* Header**/
+header{
+  background: black;
+  padding-top:0;
+  min-height:2px;
+  border-bottom:#00ffff 5px solid;
+}
+
+header a{
+color:#c8a46d;
+text-decoration: none;
+text-transform: uppercase;
+font-size:12px;
+}
+header ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+header #branding{
+float:left;
+}
+
+header #branding img{
+ display: block;
+  float: left;
+  width:150px;
+  height:70px;
+}
+
+header nav li{
+  display: inline;
+padding-bottom: 50px;
+  padding:25px 15px 25px 15px;
+
+}
+
+header .current a{
+  color:hotpink;
+  font-weight:bolder;
+}
+
+header a:hover{
+  color:#00ffff;
+  font-weight:750px;
+}
+header #icons img{
+  width: 35px;
+  float: right;
+  padding:10px;
+  padding-top:50px;
+
+}
+header #pages{
+  padding-top: 50px;
+}
+div .gallery{
+  margin: 5px;
+  border:1px solid #ccc;
+  float: left;
+  width: 180px;
+
+}
+div .gallery{
+  width: 300px;
+  height:300px;
+
+}
+div .gallery img{
+  width:100%;
+  height: 250px;
+
+}
+/* background*/
+.background p{
+  font-style: italic;
+  font-size:15px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+/*.imag{
+  width: 100%;
+  height: 100%;
+}*/
+
+
+/*boxes*/
+#boxes{
+  margin-top:20px;
+}
+#boxes .box{
+  float:left;
+  text-align: center;
+  padding:50px;
+}
+#boxes img{
+width:200px;
+height:100px;
+transition:
+
+}
+#boxes:hover{
+  transition: width 3s;
+}
+/*Sidebar */
+aside#sidebar{
+  float:right;
+  width: 30%;
+  margin-top:20px
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 100%;
+  padding: 5px;
+}
+/*Main-col*/
+article#main-col{
+  float: left;
+  width: 65%;
+}
+/* designers*/
+ul#designers li{
+list-style: none;
+padding: 20px;
+border:none;
+}
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color:pink;
+  background: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Media Queries*/
+@media(max-width:800px){
+header #branding ,
+header nav,
+header nav li,
+#newsletter h1,
+#newsletter form,
+#boxes .box
+article#main-col,
+aside#sidebar,
+header #icons,
+header #pages{
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+ }
+ /*header{
+  padding-bottom: 20px;
+}*/
+#showcase img{
+  float: none;
+  margin-top:40px;
+
+}
+#newsletter button_1,
+.quote button{
+  display:block;
+  width: 100%;
+}
+#newsletter form input[type="email"],.quote input,.quote textarea{
+  width: 100%;
+  margin-bottom: 5px;
+}
